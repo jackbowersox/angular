@@ -20,3 +20,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 
+- task: BrowserStackResults@1
+  inputs:
+    browserstackProduct: 'automate'
